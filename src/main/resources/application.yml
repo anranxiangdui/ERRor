@@ -1,0 +1,13 @@
+#配置项目端口号
+server:
+  port: 8082
+#配置数据库连接
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/数据库?characterEncoding=UTF8&serverTimezone=UTC
+    username: 名称
+    password: 密码
+
+
+
